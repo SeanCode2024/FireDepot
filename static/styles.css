@@ -1,0 +1,114 @@
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fff5f0, #ffffff); /* Subtle orange gradient */
+    color: #333; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures full-height view on smaller screens */
+}
+
+/* Auth card styles */
+.auth-card {
+    width: 100%;
+    max-width: 400px; /* Limits the maximum width of the card */
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff; /* White card background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 2rem;
+}
+
+/* Logo container styling */
+.logo-container {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Logo styling */
+.logo {
+    max-width: 350px; /* Larger logo size */
+    height: auto;
+    display: inline-block;
+    animation: pop-in 1s ease-out; /* Smooth animation effect */
+}
+
+/* Animation for logo */
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Heading styles */
+h3 {
+    font-weight: bold;
+    color: #f4511e; /* Vibrant orange for headings */
+    margin-bottom: 1rem;
+}
+
+/* Form label styles */
+.form-label {
+    font-weight: 500;
+    color: #333; /* Dark text for form labels */
+}
+
+/* Form input styling */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa; /* Subtle gray background for inputs */
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #f4511e; /* Orange border on focus */
+    box-shadow: 0 0 5px rgba(244, 81, 30, 0.3); /* Subtle orange glow effect */
+}
+
+/* Button styles */
+.btn {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-primary {
+    background-color: #f4511e; /* Vibrant orange for buttons */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #d84315; /* Darker orange on hover */
+    box-shadow: 0 4px 10px rgba(244, 81, 30, 0.3); /* Subtle hover shadow */
+}
+
+/* Link styles */
+a.text-muted {
+    color: #6c757d; /* Muted gray for subtle links */
+    font-weight: 500;
+}
+
+a.text-muted:hover {
+    color: #333; /* Darker gray on hover */
+    text-decoration: underline;
+}
+
+a.text-primary {
+    color: #f4511e; /* Orange for primary links */
+    font-weight: bold;
+}
+
+a.text-primary:hover {
+    color: #d84315; /* Darker orange on hover */
+    text-decoration: underline;
+}

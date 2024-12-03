@@ -1,0 +1,86 @@
+/* Modern styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.header {
+    background: linear-gradient(45deg, #ff7b54, #ffcc00);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    font-size: 1rem;
+}
+
+.content-container {
+    margin-top: -3rem;
+    position: relative;
+}
+
+.card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.btn-primary {
+    background-color: #ff7b54;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff5500;
+}
+
+.table thead {
+    background-color: #ff7b54;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #ffe6cc;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header p {
+        font-size: 0.9rem;
+    }
+
+    .content-container {
+        margin-top: -2rem;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+    }
+}
